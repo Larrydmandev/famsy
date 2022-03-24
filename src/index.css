@@ -1,13 +1,230 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ .template-section .icon-position{
+  height: 15px;
+  width: 50px; 
+  left: 100px;
+  position: relative;
+  border-radius: 50px;
+} 
+
+.template-section .icon-position i{
+  position: absolute;
+  /* right: 0.1px; */
+  right: 100px;
+  top: 10px;
+}
+.nav-img{
+  width: 100%;
+  height: 100%;
+}
+
+.nav-ul{
+  position: relative;
+  right: 45%;
+}
+
+
+.nav-div .nav-ul .nav-item a
+{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-div .nav-ul .nav-item a:hover
+{
+  color: pink;
+}
+
+.main-carousel{
+  position: absolute;
+  top: 40%;
+  width: 50%;
+}
+
+.card-section{
+  margin-top: 5%;
+}
+
+.main-card{
+  margin-left: 10%;
+  background-color: rgba(0,44,62,255);
+}
+.carousel-caption2
+{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption2 p{
+  text-align: justify;
+}
+
+.carousel-h1{
+  color: rgb(230,132,138);
+}
+
+.carousel-span{
+  color: rgb(28,66,81);
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+}
+.title::after{
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-arrivals{
+  position: absolute;
+  top: 250%;
+  padding-left: 50%;
+}
+
+.main-arrivals h1{
+  font-size: 50px;
+  color: rgba(0,44,62,255);
+}
+
+.main-arrivals p{
+  padding-right: 20%;
+}
+
+.main-arrivals button{
+  width: 20%;
+}
+
+.title1{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+}
+
+.title1::after{
+  content: '';
+  background: pink;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.first-card{
+  margin-left: 20%;
+  padding:10px;
+  background-color:white;
+  width:200px;
+  border-style:solid;
+}
+
+.product-card img{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 20%;
+}
+
+.product-card1 img{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 20%
+}
+
+.news-sec{
+  background-color: rgba(212,206,208,255);
+  height: 50vh;
+  margin-top: 10%;
+}
+
+.news-h1{
+  text-align: center;
+  color: rgba(0,44,62,255);
+}
+
+.news-p{
+  text-align: center;
+  width: 100%;
+}
+
+.news-div{
+  height: 1000%;
+}
+
+.carousel-img{
+  width: 10%;
+  height: 10%;
+  margin-bottom: 1%;
+}
+
+.car-div{
+  text-align: center;
+}
+
+.car-p{
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.car-h1{
+  text-align: center;
+  font-weight: bold;  
+}
+
+
+
+.foot-img{
+  width: 80%;
+  height: 80%;
+}
+
+.img-div{
+  padding-left: 30%;
+  padding-top: 30%;
+  margin-bottom: 5%;
+}
+
+.p-div{
+  padding-left: 30%;
+}
+
+.foot-span{
+  font-weight: bold;
+}
+
+.link-div a{
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-foot{
+  padding-top: 6.5%;
+  padding-left: 5%;
+}
+
+.foot-header{
+  font-weight: bold;
 }
